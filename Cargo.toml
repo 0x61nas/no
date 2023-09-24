@@ -1,0 +1,12 @@
+[package]
+name = "no"
+version = "0.1.0"
+edition = "2021"
+description = "No."
+repository = "https://github.com/0x61nas/no"
+license = "MIT OR Apache-2.0"
+
+[profile.release]
+lto = true
+panic = "abort"
+codegen-units = 1
